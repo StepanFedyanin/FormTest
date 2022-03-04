@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Тестовое задание</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+			<div class="sending">
+				<div class="sending__photo">
+					<img class="sending__photo--style" src="Photo/Photo.png" alt="">
+				</div>
+				<div class="sending__text">
+					<p class="sending__text--style">Hello <br> my friend</p>
+				</div>
+				<div class="form"></div>
+				<div class="sending__forms">
+					<form action="#" id="form" class="sending__form">
+						<div class="form__item">
+							<label for="formName" class="form__label">Ваше имя</label>
+							<input type="text" id="formName" name="name" class="form__input" value="" placeholder="Имя">
+						</div>
+						<div class="form__item">
+							<label for="formPhone" class="form__label">Tелефон</label>
+							<input type="text" id="formPhone" name="number" class="form__input" value=""
+								placeholder="Номер телефона">
+						</div>
+						<div class="form__item">
+							<label for="formPassword" class="form__label">Пароль</label>
+							<input type="password" id="formPassword" name="password" class="form__input" value="">
+						</div>
+						<div class="option">
+							<div class="options">
+								<input type="radio" id="optionsLike" name="likeWork" value="like" class="options__input">
+								<label for="optionsLike" class="options__label"><span> Люблю свою работу</span></label>
+							</div>
+							<div class="options">
+								<input type="radio" id="optionsVeryLike" name="likeWork" value="Verylike"
+									class="options__input">
+								<label for="optionsVeryLike" class="options__label"><span>Очень люблю свою работу</span>
+								</label>
+							</div>
+						</div>
+						<div class="form__submit">
+							<button type="submit" class="form__submit--style">Отправить анкету</button>
+						</div>
+
+					</form>
+				</div>
+			</div>
+
+		</main>
+		<footer class="footer"></footer>
+	</div>
+
+
+	<script src="script/script.js"></script>
+</body>
+
+</html>
